@@ -1,0 +1,20 @@
+'''1)write  a program to find area of a circle
+    2)"          "  "      "   "  perimeter of a circle
+     3)   "        "    "    "  area of a triangle
+    4)"   "    "     "        "  perimeter of a triangle
+    5)find the prime number using square root method
+r=int(input())
+pie=3.14
+print("perimeter of the circle",2*pie*r)
+print("area of circle is",pie*(r**r))
+
+
+l,b=map(int,input().split())
+a,b,c=map(int,input().split())
+print("area of triangle",l*b)
+print("perimeter of the triangle",a+b+c)'''
+
+
+
+
+

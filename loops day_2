@@ -1,0 +1,17 @@
+'''n=list(map(int,input().split()))
+for i in range(len(n),-1):
+    print(n[i],end=" ")
+print("\n")
+for i in n:
+    print(i,end=" ")'''
+
+
+
+
+s=list(map(int,input().split() ))
+for i in s:
+    print(s,end="\n")
+#print("\n")
+
+for i in range(len(s)):
+    print(s[i],end="")

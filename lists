@@ -1,0 +1,66 @@
+'''append
+insert
+reveres
+sort(ascending,descending)
+copy
+clear
+slicing
+pop
+list(ordered list)
+count(frequency of the numbers)
+* removes the square braces and commas in the list output'''
+li=[1,-2,-13,4,45,34]
+#li.append(999)
+#li.insert(0,999)
+#li.insert(8000,34)#by default element is added at the end if the location is not found 
+'''print(len(li))
+li.pop()#default prints the last element
+li.pop(2)
+li.pop(5)#index out of range 
+print(*li)'''
+#li_1=[2,3,4,5,5]
+#print(li+li_1)#concatination takes place here(interview question)
+'''new_li=li.copy()
+new_li.pop()
+print(new_li)
+print(li)'''
+#print(li.count(3))
+#aggregate functions:
+#print(sum(li))
+#li.sort()#in the background the elements are sorted and uses quick sort in the background time complexity is nlogn of quick sort
+#print(*li)
+#print(li.sort())
+'''n=int(input())
+org_num=n
+num_str=str(n)
+sum=0
+for i in num_str:
+    sum=sum+(i**len(num_str))
+    
+if org_num==sum:
+    print(f"{n} is an amstrong number")
+else:
+    print("f{n} is not amstrong number")
+'''
+#li=[1,-2,-13,4,45,34]
+#li=list(map(int,input().split(",")))#taking input from the user when integer input is taken
+#print(*li)
+li=list(map(int,input().split()))
+#li_2=list(map(int,input().split()))
+#taking input as a string from user
+choice=[1,2,3,4]
+for i in choice:
+    print(i)
+c=int(input("enter your choice:"))
+if c==1:
+    li.append(12)
+    print(*li)
+elif c==2:
+    li.pop()
+    print(*li)
+elif c==3:
+    li.sort()
+    print(*li)
+else:
+    #sum=li+li_2
+    print(f"good morning",{len(li)})
