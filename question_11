@@ -1,0 +1,14 @@
+''' find the duplicate numbers in an array'''
+
+li=list(map(int,input().split()))
+new=[]
+for i in li:
+    if i not in new:
+        new.append(i)
+#print(new)
+    else:
+        #if i in new:
+        print(i,end=" ")
+
+        
+    

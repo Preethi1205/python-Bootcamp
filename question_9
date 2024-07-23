@@ -1,20 +1,43 @@
-'''1)write  a program to find area of a circle
-    2)"          "  "      "   "  perimeter of a circle
-     3)   "        "    "    "  area of a triangle
-    4)"   "    "     "        "  perimeter of a triangle
-    5)find the prime number using square root method
-r=int(input())
-pie=3.14
-print("perimeter of the circle",2*pie*r)
-print("area of circle is",pie*(r**r))
-
-
-l,b=map(int,input().split())
-a,b,c=map(int,input().split())
-print("area of triangle",l*b)
-print("perimeter of the triangle",a+b+c)'''
+'''find the element that is  present in k+N index 
+k=3
+n=2
+3 6 8 4 61 2
+op:2
+-----------
+k=3
+n=4
+23 445 34 67 23
+op:error'''
 
 
 
+'''k=int(input())
+n=int(input())
+li=list(map(int,input().split()))
+
+for i in range(len(li)):
+    if len(li)>(k+n):
+        value=li[k+n]
+        print(value)
+        break
+else:
+    print("error") '''
 
 
+
+
+'''10th question---print the element in a particualr index(cyclic printing) 
+k=8
+80 70 44 36 72
+op:36'''
+k=int(input())
+li=list(map(int,input().split()))
+#val=li[::-1]
+'''for i in range(len(li)):
+    if k==i+len(li)-1:
+        print(li[i]-len(li))
+    mod function is used '''
+val=k%len(li)
+print(li[val])  
+
+     

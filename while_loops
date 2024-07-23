@@ -1,0 +1,58 @@
+'''while loops
+sum of digits=123=1+2+3=6
+
+n=int(input())
+val=0
+while n>0:
+    num=n%10
+    val=val+num
+    n=n//10
+print(val)'''
+
+
+'''Reversing a number'''
+n=int(input())
+val=0
+while n>0:
+    num=n%10
+    val=val*10+num
+    n=n//10
+print(val)
+
+
+
+
+'''palindrome'''
+'''n=int(input())
+val=0
+while n>0:
+    num=n%10
+    val=val*10+num
+    n=n//10
+if val==n:
+    print("f{n} is a palindrome")
+else:
+    print("f{n} is not a palindorme")
+'''
+
+
+
+
+
+'''' find the sum of squares of a digit in a given number'''
+'''n=int(input())
+val=0
+while n>0:
+    num=n%10
+    if num%2==0:
+        val=val+num    #val=val+(num**2)
+    n=n//10
+print(val)'''
+
+
+
+
+
+
+
+

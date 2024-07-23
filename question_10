@@ -1,0 +1,121 @@
+'''find the maximum element in a given list'''
+'''n=int(input())
+li=list(map(int,input().split()))
+ans=0
+for i in range(len(li)):
+    #val=max(li[i],li[i+1])
+#val=max(li)
+    #print(val)
+    if li[i] > ans:
+        ans=li[i]
+print(ans)'''
+
+
+'''find out the minimum element in the list'''
+'''n=int(input())
+li=list(map(int,input().split()))
+ans=0
+for i in range(len(li)):
+    #val=max(li[i],li[i+1])
+#val=max(li)
+    #print(val)
+    if li[i] <=ans:
+        ans=li[i]
+print(ans)'''
+
+
+
+
+''' replace the elemnts in an array with avg of max and min elements '''
+
+'''n=int(input())
+li=list(map(int,input().split()))
+ans=0
+ans1=0
+
+for i in range(len(li)):
+    if li[i]>ans:
+        ans=li[i]
+print(ans)
+for i in range(len(li)):
+    if ans1<li[i]:
+        ans1=li[i]
+print(ans1)
+sum=(ans+ans1)//2
+for i in range(len(li)):
+    sum=li[i]
+print(li)'''
+
+
+
+'''n=int(input())
+li=list(map(int,input().split()))
+ans=[0]
+ans_1=[0]
+for i in range(len(li)):
+    if(ans>li[i]):
+        ans=li[i]
+for i in range(len(li)):
+    if(ans_1<li[i]):
+        ans_1=li[i]
+sum=(ans+ans_1)//2
+for i in range(len(li)):
+    li[i]=sum
+    print(li[i],end=" ")
+'''
+''' second maximum element
+
+li=list(map(int,input().split()))
+max=li[0]
+ans=0
+for i in range(len(li)):
+    #val=max(li[i],li[i+1])
+#val=max(li)
+    #print(val)
+    if li[i] > ans:
+        ans=li[i]
+print(ans)
+'''
+
+
+''' fing missing number in an array
+
+li=list(map(int,input().split()))
+a=55
+b=0
+for i in range(len(li)):
+    b+=li[i]
+a=a-b
+print(a)
+'''
+
+'''n=int(input())
+li=list(map(int,input().split()))
+a=(n*(n+1))//2
+b=0
+for i in range(len(li)):
+    b+=li[i]
+a=a-b
+print(a)'''
+
+
+
+''' find the duplicate numbers in an array'''
+
+#li=list(map(int,input().split()))
+
+
+
+li=list(map(int,input().split()))
+max=li[0]
+ans=0
+for i in range(len(li)):
+    if max<li[i]:
+        max=li[i]
+    for j in range(len(li)):
+        if(li[j]<max) and (max>ans):
+            ans=li[j]
+print(ans)
+
+
+
