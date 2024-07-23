@@ -1,0 +1,50 @@
+'''string methods
+length() #lenghth os the string
+isalem() 
+islower()
+isupper()
+isupper()
+isdigit()
+title()
+swap()
+trim()
+copy()'''
+
+#n=input()
+#n1=n.upper()
+#print(n1)
+#n2=n.lower()
+#print(n2)
+#print(n.isdigit())
+#print(n.swap())
+#print(len(n))
+#n2=n.swap()
+#print(n2)
+#print(n.trim())
+#print(n.split())
+#print(n.strip())
+#print(n.capitalize())# prints only the first letter capital
+#print(n.title())# first letter cpaital and other words also capital
+#print(n.swapcase())
+#print(n.replace('2','t'))
+#print(n.split('o'))# prints the before  character string and after string   
+
+
+'''string methods
+isalpha
+n=input()
+m=input()
+print(n.isalpha())
+print(n.isalnum())
+print(n.isnumeric())
+print(n.islower())
+print(n.isupper())
+print(n.istitle())
+print(n.isdigit())#digits from 0 to 9
+print(n.isascii())
+
+n=input()
+m=input()
+print(join("n","m"))'''
+
+
