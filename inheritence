@@ -1,0 +1,76 @@
+#single inheritence
+'''class Animal:
+    def Speak():
+        return "animal is speaking"
+class Dog(Animal):
+    def Bark():
+        return "bow"
+ob1=Animal
+ob2=Dog
+print(ob1.Speak()) 
+print(ob2.Bark())
+'''
+
+
+'''muiltilevel inheritence'''
+
+'''class Animal:
+    def Speak():
+        return "animal is speaking"
+class Dog(Animal):
+    def Bark():
+        return "bow"
+class cat(Animal):
+    def sound():
+        return "meow"
+ob1=Animal
+ob2=Dog
+ob3=cat
+print(ob1.Speak()) 
+print(ob2.Bark())
+print(ob3.sound())
+
+'''
+''' multiple inheritance'''
+
+'''class father:
+    def kid_speak():
+        return "im having properties of father"
+class mother:
+    def kid_laugh():
+        return "Im having properties of mother"
+class kid(father,mother):
+    def kid_pr():
+        return "im having both"
+ob1=kid
+ob2=mother
+ob3=father
+print(ob1.kid_pr())
+print(ob1.kid_laugh())
+print(ob1.kid_speak())
+'''
+
+
+'''hierarchial inheritence'''
+
+class inherit:
+    def grandfather():
+        return "properties of grandfather"
+class grandmother(inherit):
+    def nose():
+        return "resembles the same "
+class aunty(grandmother):
+    def face():
+        return "resembles the same"
+class kid(aunty,grandmother):
+    def kid_face():
+        return "i got properties"
+ob1=inherit
+ob2=grandmother
+ob3=aunty
+ob4=kid
+print(ob2.nose())
+print(ob3.face())
+print(ob4 .kid_face())
+
+

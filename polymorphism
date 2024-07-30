@@ -1,0 +1,59 @@
+#method overriding
+'''class Animal:
+    def Speak():
+        return "spesking.."
+class Dog(Animal):
+    def Speak():
+        return " bow is speakimg"
+class puppy(Dog):
+    def Speak():
+        return "puppy is speaking"
+#ob1=Animal
+#ob2=Dog
+ob3=puppy
+#print(ob1.Speak()) 
+#print(ob2.Speak())
+print(ob3.Speak())
+'''
+
+'''def run():
+    return "helo"
+def run():
+    return "good"
+def run():
+    return "goooood"
+print(run())
+'''
+
+
+# method overloading
+'''class cal:
+    def __init__(self,a,b,c):
+        self.a=a
+        self.b=b
+        self.c=c
+    def sum(a,b,c):
+        return a+b+c
+
+ob1=cal
+print(ob1.sum(a,b,))'''
+
+class cal:
+    def add(self,*args):
+        sum=0
+        for i in args:
+            sum+=i
+        return sum
+#args=list(map(int,input().split()))
+ob1=cal()
+args=list(map(int,input().split()))
+print(ob1.add(*args))
+#print(ob1.add(1,2,3))
+#print(ob1.add(1,2))
+
+
+
+
+
+
+
